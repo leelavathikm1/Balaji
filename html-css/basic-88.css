@@ -27,8 +27,30 @@ li {
 }
 div#imgDiv {
     margin: 0 auto;
-}
-img {
     width: 900px;
-    margin: 30px 0 30px 30px;
+}
+#imgDiv img {
+    width: 900px;
+    margin-top: 10px;
+}
+div#QuarterHead {
+    width: 1045px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.quarterDives {
+    width: 345px;
+    float: left;
+}
+.quarterDives figure {
+    border: 1px solid;
+    margin-left: 0px;
+}
+.quarterDives figure img {
+    padding: 5px;
+}
+figcaption a {
+    float: right;
+    margin-right: 55px;
+    color: red;
 }
